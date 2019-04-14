@@ -28,5 +28,6 @@ public class MyTest {
         String message1 = "测试1";
 
         logger.info("message is : {} {}", message, message1);
+        System.out.println(String.format("massage is : %s %s", message, message1));
     }
 }
